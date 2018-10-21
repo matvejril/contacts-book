@@ -1,0 +1,30 @@
+.creator {
+    background-color: #2196f3;
+    padding: 20px 0 20px 0;
+}
+.creator input {
+    width: 100%;
+    padding: 3px 7px;
+    border: none;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.creator input, .creator button {
+    margin-top: 15px;
+}
+.creator .row:first-child input {
+    margin-top: 0;
+}
+.creator .row:first-child:first-child {
+    margin-top: 0;
+}
+.creator__action {
+     text-align: right;
+}
+
+@media all and (max-width: 991px) {
+    .creator .row:first-child input {
+        margin-top: 15px;
+    }
+}

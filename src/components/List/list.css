@@ -1,0 +1,14 @@
+.contact-list {
+    margin: 15px 0 15px 0;
+}
+.contact-list__head {
+    padding: 3px 15px;
+    background-color: #eeeeee;
+}
+
+
+@media all and (max-width: 767px) {
+    .contact-list__head {
+        display: none;
+    }
+}

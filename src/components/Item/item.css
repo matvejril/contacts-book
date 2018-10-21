@@ -1,0 +1,46 @@
+.contact-item {
+    margin-top: 15px;
+    padding: 10px 15px 10px 15px;
+    position: relative;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+.contact-item:first-child {
+    margin-top: 0;
+}
+.contact-item p {
+    margin: 5px 0 0 0;
+}
+.contact-item p:first-child {
+    margin-top: 0;
+}
+.contact-item__actions {
+    text-align: right;
+    position: absolute;
+    right: 7px;
+    top: 7px;
+    z-index: 1;
+}
+.contact-item button {
+    background-color: transparent;
+    border: none;
+}
+.contact-item:first-child {
+    border-top: 0;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+@media all and (max-width: 767px) {
+    .contact-item .row > div:first-child p {
+        margin-top: 0;
+    }
+    .contact-item p:first-child {
+        margin-top: 5px;
+    }
+    .contact-item:first-child {
+        border-top: 1px solid rgba(0, 0, 0, 0.125);
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+    }
+}
