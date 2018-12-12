@@ -77,7 +77,7 @@ class Creator extends Component {
     renderBtn = () => {
         const addBtn = <button type="button" onClick={this.handlerAddContact}>Добавить</button>;
         const saveBtn = <button type="button" onClick={this.handlerUpdateContact}>Сохранить</button>;
-        if (this.state.contact.name) {
+        if (this.props.selectedContact) {
             return saveBtn
         } else {
             return addBtn
